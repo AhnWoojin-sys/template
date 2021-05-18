@@ -1,0 +1,75 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+    
+}
+
+.main-background {
+    background-image: linear-gradient(blue, #7FDBFF);
+    height: 550px;
+    padding: 50px;
+    color: white;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-between;
+}
+
+.main-text {
+    flex: 1;
+}
+
+.main-iphone {
+    padding-top: 165px;
+    width: 400px;
+    margin: auto;
+}
+
+.btn{
+    width: 180px;
+    height: 50px;
+}
+.btn-black{
+    border: black 5px solid;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+.btn-black:active {
+    color: blue;
+}
+
+.intro-background {
+    height: 400px;
+    background-color: #0080FF;
+    color: white;
+    text-align: center;
+}
+
+/* Mobile media query */
+@media screen and (max-width: 768px){ 
+    .main-background {
+        height: 710px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .main-text {
+        text-align: center;
+    }
+
+    .main-iphone {
+        margin-top: 0px;
+        width: 350px;
+    }
+}
+
+/* Desktops media query */
+@media screen and (max-width: 1200px){
+    
+}
